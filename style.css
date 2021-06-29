@@ -81,9 +81,7 @@ p{
     font-size: 20px;
 }
 .links:hover{
-    background-color: dodgerblue;
-    font-size: 25px;
-    text-decoration: underline;
+    color: dodgerblue;
 }
 a{
     text-decoration: none;
@@ -98,4 +96,12 @@ a{
 #references{
     text-align: left;
     margin-left: 30px;
+}
+input{
+    background-color: aliceblue;
+}
+.my_nav_bar{
+    position: sticky;
+    top: 0;
+    z-index:99999;
 }

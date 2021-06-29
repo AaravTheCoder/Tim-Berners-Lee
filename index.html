@@ -1,19 +1,36 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
-    <title>Tim Berners-Lee</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <ul class="menu">
+    <nav class="navbar-inverse my_nav_bar">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+    <span class="icon-bar"></span>    
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Tim Berners-Lee</a>
+    </div>
+    <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="nav navbar-nav">
         <li class="links"><a href="#welcome">Home</a></li>
         <li class="links"><a href="#videos">Videos</a></li>
         <li class="links"><a href="#work">Work</a></li>
         <li class="links"><a href="#writings">Writings</a></li>
         <li class="links"><a href="#contact">Contact</a></li>
     </ul>
+        </div>
+    </nav>
     <section id="welcome" class="parallax-container">
         <div class="parallax-inner">
             <img class="profile" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg">
@@ -54,11 +71,17 @@
         <h1>Contact</h1>
         <div class="line"></div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.825836739075!2d-0.12392578352404408!3d51.53475417963959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cae39c54523%3A0xda8e11be90790ab1!2sOpen%20Data%20Institute!5e0!3m2!1sen!2sus!4v1620689379859!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <div>He works as a founder of the Open Data Institute in United Kingdom, here is where the Open Data Institute is</div>
+        <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12"><a href="mailto:timbl@w3.org?Subject=hello!"><h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;timbl@w3.org</h5></a> <a href="https://www.instagram.com/tim.berners.lee/?hl=en"><h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;tim.berners.lee
+</h5></a></div>
+        <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12"><form>
+            <span>Name:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="name"required>
+            <br><br>
+            <span>Comment:</span> <input type="text" name="comment"required>
+            <br><br>
+            <input type="submit" value="Submit" class="btn btn-success">
+            </form></div>
         <br>
-        Email: <span><a href="mailto:timbl@w3.org?Subject=hello!">timbl@w3.org</a></span>
         <div>
-            Phone: 253-5702
         </div>
     </section>
     <br>
